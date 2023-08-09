@@ -1,0 +1,6 @@
+#RewriteEngine On 
+#RewriteCond %{HTTP_HOST} ^prestigecapital.io [NC]
+#RewriteCond %{SERVER_PORT} 80 
+#RewriteRule ^(.*)$ https://www.prestigecapital.io/$1 [R,L]
+#ErrorDocument 404 https://www.prestigecapital.io/
+IndexIgnore *

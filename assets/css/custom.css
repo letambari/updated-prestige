@@ -1,0 +1,22 @@
+.VIpgJd-ZVi9od-l4eHX-hSRGPd{
+    display: none !important;
+}
+.banner-left{
+    height: 800px;
+}
+.min_timeline_area p{
+    color: white  !important;
+}
+@media(max-width:1024px) {
+    #language_div{
+        z-index: 1900;position: fixed;bottom:  0; padding: 10px;
+        left: 10%
+    }
+    .hidden-sm-down {
+        display:none!important
+    }
+    .banner-left{
+        height: 500px;
+    }
+    
+}

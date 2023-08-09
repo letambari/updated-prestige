@@ -1,0 +1,11 @@
+
+#side_nav{
+    width:auto; height:auto;z-index: 900;position: fixed;bottom:  0;margin: auto;
+    background: #000; padding: 10px; text-align: center;
+}
+#side_nav ul li{
+    margin-left: 5px; float: left; width: auto
+}
+.mb-30{
+    margin-bottom: 50px
+}
